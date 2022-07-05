@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "92eb+Uoz2S37VqAL2VtcXRzdMDmwShhaVEtfGlck284wD9OLPTB9GBBk90YaqFw/geDJz1UinGj7T/o1+TPgNA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\vdforever\\source\\repos\\GifSqueeze\\GifSqueeze\\GifSqueeze.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vdforever\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\vdforever\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
