@@ -41,17 +41,4 @@ class programm
         }
         return null;
     }
-
-    public static Image[] GetFramesFromAnimatedGIF(Image IMG)
-    {
-        List<Image> IMGs = new List<Image>();
-        int Length = IMG.GetFrameCount(FrameDimension.Time);
-        for (int i = 0; i < Length; i++)
-        {
-            IMG.SelectActiveFrame(FrameDimension.Time, i);
-            IMGs.Add(new Bitmap(IMG));
-        }
-        return IMGs.ToArray();
-    }
-
 }
