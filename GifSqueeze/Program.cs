@@ -28,7 +28,6 @@ class programm
         {
             Console.WriteLine(ex.ToString());
         }
-        Console.ReadKey();
     }
     static private ImageCodecInfo GetEncoder(ImageFormat format)
     {
