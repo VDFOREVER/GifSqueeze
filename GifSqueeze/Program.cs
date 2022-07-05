@@ -20,7 +20,7 @@ class programm
                     EncoderParameters myEncoderParameters = new EncoderParameters(1);
                     EncoderParameter myEncoderParameter = new EncoderParameter(Encoder.Quality, 50L);
                     myEncoderParameters.Param[0] = myEncoderParameter;
-                    bmp1.Save(Path.GetFileNameWithoutExtension(url) + "_compress.jpeg", GetEncoder(ImageFormat.Jpeg), myEncoderParameters);
+                    bmp1.Save(Path.GetFileNameWithoutExtension(url) + "_compress" + Path.GetExtension(url), GetEncoder(ImageFormat.Jpeg), myEncoderParameters);
                 }
             }
         }
